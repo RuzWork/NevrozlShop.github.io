@@ -1,0 +1,93 @@
+
+body {
+	background: linear-gradient(0deg, #091839 0%, #161373 100%);
+}
+
+p {
+	color: aquamarine;
+}
+
+footer {
+	padding-top: 1em;
+	color: white;
+	background: linear-gradient(180deg, #191339 23%, #000000 100%);
+}
+
+.btn-outline-primary {
+	background: linear-gradient(128deg, #000000 23%, #0093A1 100%);
+}
+
+.nav-link {
+	color: aquamarine;
+} 
+
+
+.navbar-nav .nav-link.active {
+	color: rgb(140, 140, 140);
+}
+
+.navbar-brand img {
+	width: 35px;
+}
+
+.navbar-toggler {
+	background-color: aquamarine;
+	
+}
+
+.sidebar {
+	color: white;
+}
+
+.sidebar>p>a {
+	text-decoration: none;
+	color: white;
+}
+
+.card { 
+		color: white;
+		background: linear-gradient(80deg, #1A1B64 23%, #2259B3 100%);
+		border-color: white;
+		border-width: 0;
+}
+
+.card a {
+	text-decoration: none;
+	color: white;
+}
+
+.slide-text {
+	margin: auto auto;
+	padding-right: 5em;
+	color: white;
+}
+
+.media-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.call-anim {
+	animation: myAnim 2s ease 0s infinite reverse forwards;	
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0.2;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@media (max-width: 755px) {
+	.carousel-indicators {
+		display: none;
+	}
+}
